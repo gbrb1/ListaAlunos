@@ -62,5 +62,6 @@ public class ListaAlunosAdapter extends BaseAdapter {
 
     public void remove(Aluno aluno) {
         alunos.remove(aluno);
+        notifyDataSetChanged();
     }
 }
